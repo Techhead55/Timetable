@@ -236,5 +236,18 @@ let Class = {
                     cal.fullCalendar("updateEvent", events[0]);
             }
         }
+    },
+    
+    //
+    genLocationRef: (unitID) => {
+        let icon = $('<i>', {
+            class: "fa fa-map-marker",
+            'aria-hidden': "true"
+        }),
+            link = $('<a>', {
+            href: "google.com"
+        });
+        link.append(icon);
+        return link
     }
 }

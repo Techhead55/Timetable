@@ -12,8 +12,8 @@
 }
 
 #wrapper.toggled {
-  padding-left: 220px;
-  transition: padding .5s ease;
+    padding-left: 220px;
+    transition: padding .5s ease;
 }
 
 .sidebar-wrapper {
